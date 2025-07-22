@@ -1,0 +1,225 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+ARCH	Makefile	/^    ARCH = riscv$/;"	m	language:Make
+ARCH	Makefile	/^    ARCH ?= riscv$/;"	m	language:Make
+CROSS_COMPILE	Makefile	/^    CROSS_COMPILE ?= riscv64-unknown-linux-gnu-$/;"	m	language:Make
+DEBUG_ERROR_BUFFER_FULL	kernel_debug_tracer.h	/^    DEBUG_ERROR_BUFFER_FULL = -5,$/;"	e	language:C++	enum:debug_error
+DEBUG_ERROR_INVALID_ADDR	kernel_debug_tracer.h	/^    DEBUG_ERROR_INVALID_ADDR = -1,$/;"	e	language:C++	enum:debug_error
+DEBUG_ERROR_KPROBE_FAILED	kernel_debug_tracer.h	/^    DEBUG_ERROR_KPROBE_FAILED = -3,$/;"	e	language:C++	enum:debug_error
+DEBUG_ERROR_MEMORY_ACCESS	kernel_debug_tracer.h	/^    DEBUG_ERROR_MEMORY_ACCESS = -4,$/;"	e	language:C++	enum:debug_error
+DEBUG_ERROR_MODULE_NOT_LOADED	kernel_debug_tracer.h	/^    DEBUG_ERROR_MODULE_NOT_LOADED = -6,$/;"	e	language:C++	enum:debug_error
+DEBUG_ERROR_PERMISSION_DENIED	kernel_debug_tracer.h	/^    DEBUG_ERROR_PERMISSION_DENIED = -7$/;"	e	language:C++	enum:debug_error
+DEBUG_ERROR_SYMBOL_NOT_FOUND	kernel_debug_tracer.h	/^    DEBUG_ERROR_SYMBOL_NOT_FOUND = -2,$/;"	e	language:C++	enum:debug_error
+DEBUG_SUCCESS	kernel_debug_tracer.h	/^    DEBUG_SUCCESS = 0,$/;"	e	language:C++	enum:debug_error
+Docker 环境	README.md	/^### Docker 环境$/;"	S	language:Markdown
+Docker 环境编译（推荐）	README.md	/^### Docker 环境编译（推荐）$/;"	S	language:Markdown
+FUNC_NAME_MAX	kernel_debug_tracer.h	/^#define FUNC_NAME_MAX /;"	d	language:C++
+KDIR	Makefile	/^    KDIR = ..\/linux$/;"	m	language:Make
+KDIR	Makefile	/^    KDIR = ..\/output\/current\/build\/linux-local$/;"	m	language:Make
+KDIR	Makefile	/^KDIR ?= \/lib\/modules\/$(shell uname -r)\/build$/;"	m	language:Make
+Kernel Debug Tracer Module	README.md	/^# Kernel Debug Tracer Module$/;"	c	language:Markdown
+MAX_EVENTS	kernel_debug_tracer.h	/^#define MAX_EVENTS /;"	d	language:C++
+MAX_STACK_DEPTH	kernel_debug_tracer.h	/^#define MAX_STACK_DEPTH /;"	d	language:C++
+MAX_VARS_PER_EVENT	kernel_debug_tracer.h	/^#define MAX_VARS_PER_EVENT /;"	d	language:C++
+MAX_VAR_SIZE	kernel_debug_tracer.h	/^#define MAX_VAR_SIZE /;"	d	language:C++
+MODULE_NAME_MAX	kernel_debug_tracer.h	/^#define MODULE_NAME_MAX /;"	d	language:C++
+Makefile 目标	README.md	/^## Makefile 目标$/;"	s	language:Markdown
+TYPE_NAME_MAX	kernel_debug_tracer.h	/^#define TYPE_NAME_MAX /;"	d	language:C++
+VALUE_STR_MAX	kernel_debug_tracer.h	/^#define VALUE_STR_MAX /;"	d	language:C++
+VAR_NAME_MAX	kernel_debug_tracer.h	/^#define VAR_NAME_MAX /;"	d	language:C++
+_KERNEL_DEBUG_TRACER_H	kernel_debug_tracer.h	/^#define _KERNEL_DEBUG_TRACER_H$/;"	d	language:C++
+__anonc7539a020108	kernel_debug_tracer.h	/^    struct {$/;"	s	language:C++	struct:debug_event
+__anonc7539a020208	kernel_debug_tracer.h	/^        struct {$/;"	s	language:C++	struct:debug_event::__anonc7539a020108
+__anonc7539a020308	kernel_debug_tracer.h	/^    struct {$/;"	s	language:C++	struct:debug_event
+__anonc7539a020408	kernel_debug_tracer.h	/^        struct {$/;"	s	language:C++	struct:debug_event::__anonc7539a020308
+addr	kernel_debug_tracer.h	/^            unsigned long addr;$/;"	m	language:C++	struct:debug_event::__anonc7539a020108::__anonc7539a020208	typeref:typename:unsigned long
+addr	kernel_debug_tracer.h	/^            unsigned long addr;$/;"	m	language:C++	struct:debug_event::__anonc7539a020308::__anonc7539a020408	typeref:typename:unsigned long
+addr	kernel_debug_tracer.h	/^    unsigned long addr;          \/* Kernel address *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:unsigned long
+addr	kernel_debug_tracer.h	/^    unsigned long addr;         \/* Trigger address *\/$/;"	m	language:C++	struct:kprobe_context	typeref:typename:unsigned long
+addr	kernel_debug_tracer.h	/^    unsigned long addr;$/;"	m	language:C++	struct:call_frame	typeref:typename:unsigned long
+addr	kernel_debug_tracer.h	/^    unsigned long addr;$/;"	m	language:C++	struct:symbol_info	typeref:typename:unsigned long
+addr	kernel_debug_tracer.h	/^    unsigned long addr;$/;"	m	language:C++	struct:variable_info	typeref:typename:unsigned long
+all	Makefile	/^all:$/;"	t	language:Make
+alloc_breakpoint	breakpoint_manager.c	/^static struct breakpoint_info *alloc_breakpoint(void)$/;"	f	language:C	typeref:struct:breakpoint_info *	file:	signature:(void)
+alloc_debug_event	data_collector.c	/^static struct debug_event *alloc_debug_event(void)$/;"	f	language:C	typeref:struct:debug_event *	file:	signature:(void)
+bp_manager_add_breakpoint	breakpoint_manager.c	/^int bp_manager_add_breakpoint(const char *file, int line)$/;"	f	language:C	typeref:typename:int	signature:(const char * file,int line)
+bp_manager_disable_breakpoint	breakpoint_manager.c	/^int bp_manager_disable_breakpoint(unsigned long addr)$/;"	f	language:C	typeref:typename:int	signature:(unsigned long addr)
+bp_manager_enable_breakpoint	breakpoint_manager.c	/^int bp_manager_enable_breakpoint(unsigned long addr)$/;"	f	language:C	typeref:typename:int	signature:(unsigned long addr)
+bp_manager_exit	breakpoint_manager.c	/^void bp_manager_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+bp_manager_find_breakpoint	breakpoint_manager.c	/^struct breakpoint_info *bp_manager_find_breakpoint(unsigned long addr)$/;"	f	language:C	typeref:struct:breakpoint_info *	signature:(unsigned long addr)
+bp_manager_init	breakpoint_manager.c	/^int bp_manager_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+bp_manager_remove_breakpoint	breakpoint_manager.c	/^int bp_manager_remove_breakpoint(unsigned long addr)$/;"	f	language:C	typeref:typename:int	signature:(unsigned long addr)
+breakpoint_info	kernel_debug_tracer.h	/^struct breakpoint_info {$/;"	s	language:C++
+breakpoints	kernel_debug_tracer.h	/^    struct list_head breakpoints;$/;"	m	language:C++	struct:debug_tracer_state	typeref:struct:list_head
+breakpoints_fops	debugfs_interface.c	/^static const struct file_operations breakpoints_fops = {$/;"	v	language:C	typeref:typename:const struct file_operations	file:
+breakpoints_lock	kernel_debug_tracer.h	/^    spinlock_t breakpoints_lock;$/;"	m	language:C++	struct:debug_tracer_state	typeref:typename:spinlock_t
+breakpoints_read	debugfs_interface.c	/^static ssize_t breakpoints_read(struct file *file, char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,char __user * user_buf,size_t count,loff_t * ppos)
+breakpoints_write	debugfs_interface.c	/^static ssize_t breakpoints_write(struct file *file, const char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,const char __user * user_buf,size_t count,loff_t * ppos)
+build_module	build.sh	/^build_module() {$/;"	f	language:Sh
+call_frame	kernel_debug_tracer.h	/^struct call_frame {$/;"	s	language:C++
+call_stack	kernel_debug_tracer.h	/^    } call_stack;$/;"	m	language:C++	struct:debug_event	typeref:struct:debug_event::__anonc7539a020108
+call_stack	kernel_debug_tracer.h	/^struct call_stack {$/;"	s	language:C++
+call_stack_tracer_capture	call_stack_tracer.c	/^int call_stack_tracer_capture(struct call_stack *stack, struct pt_regs *regs)$/;"	f	language:C	typeref:typename:int	signature:(struct call_stack * stack,struct pt_regs * regs)
+call_stack_tracer_exit	call_stack_tracer.c	/^void call_stack_tracer_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+call_stack_tracer_init	call_stack_tracer.c	/^int call_stack_tracer_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+call_stack_tracer_print	call_stack_tracer.c	/^void call_stack_tracer_print(struct call_stack *stack, char *buffer, int size)$/;"	f	language:C	typeref:typename:void	signature:(struct call_stack * stack,char * buffer,int size)
+capture_kernel_stack	call_stack_tracer.c	/^static int capture_kernel_stack(struct call_stack *stack, struct pt_regs *regs)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct call_stack * stack,struct pt_regs * regs)
+clean	Makefile	/^clean:$/;"	t	language:Make
+clean_build	build.sh	/^clean_build() {$/;"	f	language:Sh
+cleanup_old_events	data_collector.c	/^static void cleanup_old_events(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+cleanup_symbol_cache	symbol_resolver.c	/^static void cleanup_symbol_cache(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+config	kernel_debug_tracer.h	/^    struct debug_config config;$/;"	m	language:C++	struct:debug_tracer_state	typeref:struct:debug_config
+config_fops	debugfs_interface.c	/^static const struct file_operations config_fops = {$/;"	v	language:C	typeref:typename:const struct file_operations	file:
+config_read	debugfs_interface.c	/^static ssize_t config_read(struct file *file, char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,char __user * user_buf,size_t count,loff_t * ppos)
+config_write	debugfs_interface.c	/^static ssize_t config_write(struct file *file, const char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,const char __user * user_buf,size_t count,loff_t * ppos)
+control_fops	debugfs_interface.c	/^static const struct file_operations control_fops = {$/;"	v	language:C	typeref:typename:const struct file_operations	file:
+control_read	debugfs_interface.c	/^static ssize_t control_read(struct file *file, char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,char __user * user_buf,size_t count,loff_t * ppos)
+control_write	debugfs_interface.c	/^static ssize_t control_write(struct file *file, const char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,const char __user * user_buf,size_t count,loff_t * ppos)
+count	kernel_debug_tracer.h	/^        int count;$/;"	m	language:C++	struct:debug_event::__anonc7539a020308	typeref:typename:int
+data	kernel_debug_tracer.h	/^    void *data;$/;"	m	language:C++	struct:variable_value	typeref:typename:void *
+data_collector_add_event	data_collector.c	/^int data_collector_add_event(struct debug_event *event)$/;"	f	language:C	typeref:typename:int	signature:(struct debug_event * event)
+data_collector_clear	data_collector.c	/^void data_collector_clear(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+data_collector_exit	data_collector.c	/^void data_collector_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+data_collector_get_events	data_collector.c	/^int data_collector_get_events(struct debug_event **events, int *count, $/;"	f	language:C	typeref:typename:int	signature:(struct debug_event ** events,int * count,const char * filter)
+data_collector_init	data_collector.c	/^int data_collector_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+debug	Makefile	/^debug:$/;"	t	language:Make
+debug_config	kernel_debug_tracer.h	/^struct debug_config {$/;"	s	language:C++
+debug_error	kernel_debug_tracer.h	/^enum debug_error {$/;"	g	language:C++
+debug_event	kernel_debug_tracer.h	/^struct debug_event {$/;"	s	language:C++
+debug_print	kernel_debug_tracer.h	/^static inline void debug_print(const char *fmt, ...)$/;"	f	language:C++	typeref:typename:void	signature:(const char * fmt,...)
+debug_tracer_exit	main.c	/^void debug_tracer_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+debug_tracer_init	main.c	/^int debug_tracer_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+debug_tracer_state	kernel_debug_tracer.h	/^struct debug_tracer_state {$/;"	s	language:C++
+debugfs_interface_exit	debugfs_interface.c	/^void debugfs_interface_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+debugfs_interface_init	debugfs_interface.c	/^int debugfs_interface_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+debugfs_root	kernel_debug_tracer.h	/^    struct dentry *debugfs_root;$/;"	m	language:C++	struct:debug_tracer_state	typeref:struct:dentry *
+default_post_handler	kprobe_handler.c	/^static void default_post_handler(struct kprobe *kp, struct pt_regs *regs, unsigned long flags)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct kprobe * kp,struct pt_regs * regs,unsigned long flags)
+default_pre_handler	kprobe_handler.c	/^static int default_pre_handler(struct kprobe *kp, struct pt_regs *regs)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct kprobe * kp,struct pt_regs * regs)
+depth	kernel_debug_tracer.h	/^        int depth;$/;"	m	language:C++	struct:debug_event::__anonc7539a020108	typeref:typename:int
+depth	kernel_debug_tracer.h	/^    int depth;$/;"	m	language:C++	struct:call_stack	typeref:typename:int
+echo_error	build.sh	/^echo_error() {$/;"	f	language:Sh
+echo_info	build.sh	/^echo_info() {$/;"	f	language:Sh
+enable_on_load	main.c	/^static bool enable_on_load = false;$/;"	v	language:C	typeref:typename:bool	file:
+enabled	kernel_debug_tracer.h	/^    bool enabled;                \/* Is breakpoint enabled *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:bool
+enabled	kernel_debug_tracer.h	/^    bool enabled;$/;"	m	language:C++	struct:debug_config	typeref:typename:bool
+event_count	kernel_debug_tracer.h	/^    int event_count;$/;"	m	language:C++	struct:debug_tracer_state	typeref:typename:int
+event_matches_filter	data_collector.c	/^static bool event_matches_filter(struct debug_event *event, const char *filter)$/;"	f	language:C	typeref:typename:bool	file:	signature:(struct debug_event * event,const char * filter)
+event_type	kernel_debug_tracer.h	/^    char event_type[32];$/;"	m	language:C++	struct:debug_event	typeref:typename:char[32]
+events	kernel_debug_tracer.h	/^    struct list_head events;$/;"	m	language:C++	struct:debug_tracer_state	typeref:struct:list_head
+events_lock	kernel_debug_tracer.h	/^    spinlock_t events_lock;$/;"	m	language:C++	struct:debug_tracer_state	typeref:typename:spinlock_t
+extract_register_variable	variable_extractor.c	/^static int extract_register_variable(struct pt_regs *regs, int reg_num, $/;"	f	language:C	typeref:typename:int	file:	signature:(struct pt_regs * regs,int reg_num,struct variable_value * var)
+extract_stack_variable	variable_extractor.c	/^static int extract_stack_variable(struct pt_regs *regs, int offset, int size,$/;"	f	language:C	typeref:typename:int	file:	signature:(struct pt_regs * regs,int offset,int size,struct variable_value * var)
+file	kernel_debug_tracer.h	/^    char file[PATH_MAX];$/;"	m	language:C++	struct:symbol_info	typeref:typename:char[]
+file_name	kernel_debug_tracer.h	/^            char file_name[PATH_MAX];$/;"	m	language:C++	struct:debug_event::__anonc7539a020108::__anonc7539a020208	typeref:typename:char[]
+file_name	kernel_debug_tracer.h	/^    char file_name[PATH_MAX];$/;"	m	language:C++	struct:call_frame	typeref:typename:char[]
+filter_mask	kernel_debug_tracer.h	/^    unsigned long filter_mask;$/;"	m	language:C++	struct:debug_config	typeref:typename:unsigned long
+format_stack_frame	call_stack_tracer.c	/^static void format_stack_frame(struct call_frame *frame, char *buffer, int size)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct call_frame * frame,char * buffer,int size)
+format_variable_value	variable_extractor.c	/^static int format_variable_value(struct variable_value *var)$/;"	f	language:C	typeref:typename:int	file:	signature:(struct variable_value * var)
+frames	kernel_debug_tracer.h	/^        } frames[MAX_STACK_DEPTH];$/;"	m	language:C++	struct:debug_event::__anonc7539a020108	typeref:struct:debug_event::__anonc7539a020108::__anonc7539a020208[]
+frames	kernel_debug_tracer.h	/^    struct call_frame frames[MAX_STACK_DEPTH];$/;"	m	language:C++	struct:call_stack	typeref:struct:call_frame[]
+free_breakpoint	breakpoint_manager.c	/^static void free_breakpoint(struct breakpoint_info *bp)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct breakpoint_info * bp)
+free_debug_event	data_collector.c	/^static void free_debug_event(struct debug_event *event)$/;"	f	language:C	typeref:typename:void	file:	signature:(struct debug_event * event)
+func_name	kernel_debug_tracer.h	/^            char func_name[FUNC_NAME_MAX];$/;"	m	language:C++	struct:debug_event::__anonc7539a020108::__anonc7539a020208	typeref:typename:char[]
+function_name	kernel_debug_tracer.h	/^    char function_name[FUNC_NAME_MAX]; \/* Function name *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:char[]
+function_name	kernel_debug_tracer.h	/^    char function_name[FUNC_NAME_MAX]; \/* Function name *\/$/;"	m	language:C++	struct:kprobe_context	typeref:typename:char[]
+function_name	kernel_debug_tracer.h	/^    char function_name[FUNC_NAME_MAX];$/;"	m	language:C++	struct:call_frame	typeref:typename:char[]
+get_timestamp	kernel_debug_tracer.h	/^static inline unsigned long get_timestamp(void)$/;"	f	language:C++	typeref:typename:unsigned long	signature:(void)
+help	Makefile	/^help:$/;"	t	language:Make
+hit_count	kernel_debug_tracer.h	/^    int hit_count;               \/* Number of times hit *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:int
+info	Makefile	/^info:$/;"	t	language:Make
+initialized	kernel_debug_tracer.h	/^    bool initialized;$/;"	m	language:C++	struct:debug_tracer_state	typeref:typename:bool
+install	Makefile	/^install:$/;"	t	language:Make
+is_safe_memory_access	variable_extractor.c	/^static bool is_safe_memory_access(unsigned long addr, int size)$/;"	f	language:C	typeref:typename:bool	file:	signature:(unsigned long addr,int size)
+kernel_debug_tracer-objs	Makefile	/^kernel_debug_tracer-objs := main.o \\$/;"	m	language:Make
+kernel_debug_tracer_exit	main.c	/^static void __exit kernel_debug_tracer_exit(void)$/;"	f	language:C	typeref:typename:void __exit	file:	signature:(void)
+kernel_debug_tracer_init	main.c	/^static int __init kernel_debug_tracer_init(void)$/;"	f	language:C	typeref:typename:int __init	file:	signature:(void)
+kp	kernel_debug_tracer.h	/^    struct kprobe kp;            \/* Associated kprobe *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:struct:kprobe
+kprobe_context	kernel_debug_tracer.h	/^struct kprobe_context {$/;"	s	language:C++
+kprobe_handler_exit	kprobe_handler.c	/^void kprobe_handler_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+kprobe_handler_init	kprobe_handler.c	/^int kprobe_handler_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+kprobe_handler_register	kprobe_handler.c	/^int kprobe_handler_register(unsigned long addr, $/;"	f	language:C	typeref:typename:int	signature:(unsigned long addr,int (* pre_handler)(struct kprobe *,struct pt_regs *),void (* post_handler)(struct kprobe *,struct pt_regs *,unsigned long))
+kprobe_handler_unregister	kprobe_handler.c	/^int kprobe_handler_unregister(unsigned long addr)$/;"	f	language:C	typeref:typename:int	signature:(unsigned long addr)
+last_hit_time	kernel_debug_tracer.h	/^    unsigned long last_hit_time; \/* Last hit timestamp *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:unsigned long
+line	kernel_debug_tracer.h	/^    int line;$/;"	m	language:C++	struct:symbol_info	typeref:typename:int
+line_no	kernel_debug_tracer.h	/^            int line_no;$/;"	m	language:C++	struct:debug_event::__anonc7539a020108::__anonc7539a020208	typeref:typename:int
+line_number	kernel_debug_tracer.h	/^    int line_number;             \/* Line number *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:int
+line_number	kernel_debug_tracer.h	/^    int line_number;$/;"	m	language:C++	struct:call_frame	typeref:typename:int
+list	kernel_debug_tracer.h	/^    struct list_head list;$/;"	m	language:C++	struct:breakpoint_info	typeref:struct:list_head
+list	kernel_debug_tracer.h	/^    struct list_head list;$/;"	m	language:C++	struct:debug_event	typeref:struct:list_head
+load_module_symbols	symbol_resolver.c	/^static int load_module_symbols(const char *module_name)$/;"	f	language:C	typeref:typename:int	file:	signature:(const char * module_name)
+max_events	kernel_debug_tracer.h	/^    int max_events;$/;"	m	language:C++	struct:debug_config	typeref:typename:int
+max_events	main.c	/^static int max_events = MAX_EVENTS;$/;"	v	language:C	typeref:typename:int	file:
+name	kernel_debug_tracer.h	/^            char name[VAR_NAME_MAX];$/;"	m	language:C++	struct:debug_event::__anonc7539a020308::__anonc7539a020408	typeref:typename:char[]
+name	kernel_debug_tracer.h	/^    char name[FUNC_NAME_MAX];$/;"	m	language:C++	struct:symbol_info	typeref:typename:char[]
+name	kernel_debug_tracer.h	/^    char name[VAR_NAME_MAX];$/;"	m	language:C++	struct:variable_info	typeref:typename:char[]
+name	kernel_debug_tracer.h	/^    char name[VAR_NAME_MAX];$/;"	m	language:C++	struct:variable_value	typeref:typename:char[]
+offset	kernel_debug_tracer.h	/^    int offset;  \/* Offset relative to stack frame *\/$/;"	m	language:C++	struct:variable_info	typeref:typename:int
+pid	kernel_debug_tracer.h	/^    pid_t pid;$/;"	m	language:C++	struct:debug_event	typeref:typename:pid_t
+prepare	Makefile	/^prepare:$/;"	t	language:Make
+prepare_kernel	build.sh	/^prepare_kernel() {$/;"	f	language:Sh
+raw_data	kernel_debug_tracer.h	/^            unsigned char raw_data[MAX_VAR_SIZE];$/;"	m	language:C++	struct:debug_event::__anonc7539a020308::__anonc7539a020408	typeref:typename:unsigned char[]
+regs	kernel_debug_tracer.h	/^    struct pt_regs *regs;       \/* Register state *\/$/;"	m	language:C++	struct:kprobe_context	typeref:struct:pt_regs *
+riscv	Makefile	/^riscv:$/;"	t	language:Make
+size	kernel_debug_tracer.h	/^            int size;$/;"	m	language:C++	struct:debug_event::__anonc7539a020308::__anonc7539a020408	typeref:typename:int
+size	kernel_debug_tracer.h	/^    int size;$/;"	m	language:C++	struct:symbol_info	typeref:typename:int
+size	kernel_debug_tracer.h	/^    int size;$/;"	m	language:C++	struct:variable_info	typeref:typename:int
+size	kernel_debug_tracer.h	/^    int size;$/;"	m	language:C++	struct:variable_value	typeref:typename:int
+source_file	kernel_debug_tracer.h	/^    char source_file[PATH_MAX];  \/* Source file path *\/$/;"	m	language:C++	struct:breakpoint_info	typeref:typename:char[]
+stack_depth_limit	kernel_debug_tracer.h	/^    int stack_depth_limit;$/;"	m	language:C++	struct:debug_config	typeref:typename:int
+status_fops	debugfs_interface.c	/^static const struct file_operations status_fops = {$/;"	v	language:C	typeref:typename:const struct file_operations	file:
+status_read	debugfs_interface.c	/^static ssize_t status_read(struct file *file, char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,char __user * user_buf,size_t count,loff_t * ppos)
+string_repr	kernel_debug_tracer.h	/^    char string_repr[VALUE_STR_MAX];  \/* String representation *\/$/;"	m	language:C++	struct:variable_value	typeref:typename:char[]
+symbol_info	kernel_debug_tracer.h	/^struct symbol_info {$/;"	s	language:C++
+symbol_resolver_addr_to_symbol	symbol_resolver.c	/^struct symbol_info *symbol_resolver_addr_to_symbol(unsigned long addr)$/;"	f	language:C	typeref:struct:symbol_info *	signature:(unsigned long addr)
+symbol_resolver_exit	symbol_resolver.c	/^void symbol_resolver_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+symbol_resolver_get_function_vars	symbol_resolver.c	/^struct variable_info *symbol_resolver_get_function_vars(const char *func_name)$/;"	f	language:C	typeref:struct:variable_info *	signature:(const char * func_name)
+symbol_resolver_init	symbol_resolver.c	/^int symbol_resolver_init(const char *module_name)$/;"	f	language:C	typeref:typename:int	signature:(const char * module_name)
+symbol_resolver_name_to_addr	symbol_resolver.c	/^unsigned long symbol_resolver_name_to_addr(const char *symbol_name)$/;"	f	language:C	typeref:typename:unsigned long	signature:(const char * symbol_name)
+target_module	kernel_debug_tracer.h	/^    char target_module[MODULE_NAME_MAX];$/;"	m	language:C++	struct:debug_config	typeref:typename:char[]
+target_module	main.c	/^static char *target_module = "";$/;"	v	language:C	typeref:typename:char *	file:
+task	kernel_debug_tracer.h	/^    struct task_struct *task;   \/* Current task *\/$/;"	m	language:C++	struct:kprobe_context	typeref:struct:task_struct *
+tid	kernel_debug_tracer.h	/^    pid_t tid;$/;"	m	language:C++	struct:debug_event	typeref:typename:pid_t
+timestamp	kernel_debug_tracer.h	/^    unsigned long timestamp;    \/* Timestamp *\/$/;"	m	language:C++	struct:kprobe_context	typeref:typename:unsigned long
+timestamp	kernel_debug_tracer.h	/^    unsigned long timestamp;$/;"	m	language:C++	struct:debug_event	typeref:typename:unsigned long
+trace_data_fops	debugfs_interface.c	/^static const struct file_operations trace_data_fops = {$/;"	v	language:C	typeref:typename:const struct file_operations	file:
+trace_data_read	debugfs_interface.c	/^static ssize_t trace_data_read(struct file *file, char __user *user_buf,$/;"	f	language:C	typeref:typename:ssize_t	file:	signature:(struct file * file,char __user * user_buf,size_t count,loff_t * ppos)
+trace_function_calls	kernel_debug_tracer.h	/^    bool trace_function_calls;$/;"	m	language:C++	struct:debug_config	typeref:typename:bool
+trace_variable_changes	kernel_debug_tracer.h	/^    bool trace_variable_changes;$/;"	m	language:C++	struct:debug_config	typeref:typename:bool
+tracer_state	main.c	/^struct debug_tracer_state tracer_state = {$/;"	v	language:C	typeref:struct:debug_tracer_state
+trigger_addr	kernel_debug_tracer.h	/^    unsigned long trigger_addr;$/;"	m	language:C++	struct:debug_event	typeref:typename:unsigned long
+type	kernel_debug_tracer.h	/^            char type[TYPE_NAME_MAX];$/;"	m	language:C++	struct:debug_event::__anonc7539a020308::__anonc7539a020408	typeref:typename:char[]
+type	kernel_debug_tracer.h	/^    char type[TYPE_NAME_MAX];$/;"	m	language:C++	struct:variable_info	typeref:typename:char[]
+type	kernel_debug_tracer.h	/^    char type[TYPE_NAME_MAX];$/;"	m	language:C++	struct:variable_value	typeref:typename:char[]
+update_module_params	main.c	/^static void update_module_params(void)$/;"	f	language:C	typeref:typename:void	file:	signature:(void)
+validate_breakpoint_addr	breakpoint_manager.c	/^static int validate_breakpoint_addr(unsigned long addr)$/;"	f	language:C	typeref:typename:int	file:	signature:(unsigned long addr)
+value_str	kernel_debug_tracer.h	/^            char value_str[VALUE_STR_MAX];$/;"	m	language:C++	struct:debug_event::__anonc7539a020308::__anonc7539a020408	typeref:typename:char[]
+variable_extractor_exit	variable_extractor.c	/^void variable_extractor_exit(void)$/;"	f	language:C	typeref:typename:void	signature:(void)
+variable_extractor_get_global_var	variable_extractor.c	/^int variable_extractor_get_global_var(const char *var_name,$/;"	f	language:C	typeref:typename:int	signature:(const char * var_name,struct variable_value * var)
+variable_extractor_get_local_vars	variable_extractor.c	/^int variable_extractor_get_local_vars(struct pt_regs *regs, $/;"	f	language:C	typeref:typename:int	signature:(struct pt_regs * regs,const char * function_name,struct variable_value ** vars,int * count)
+variable_extractor_init	variable_extractor.c	/^int variable_extractor_init(void)$/;"	f	language:C	typeref:typename:int	signature:(void)
+variable_info	kernel_debug_tracer.h	/^struct variable_info {$/;"	s	language:C++
+variable_value	kernel_debug_tracer.h	/^struct variable_value {$/;"	s	language:C++
+variables	kernel_debug_tracer.h	/^    } variables;$/;"	m	language:C++	struct:debug_event	typeref:struct:debug_event::__anonc7539a020308
+vars	kernel_debug_tracer.h	/^        } vars[MAX_VARS_PER_EVENT];$/;"	m	language:C++	struct:debug_event::__anonc7539a020308	typeref:struct:debug_event::__anonc7539a020308::__anonc7539a020408[]
+使用方法	README.md	/^## 使用方法$/;"	s	language:Markdown
+准备内核（如果需要）	README.md	/^# 准备内核（如果需要）$/;"	c	language:Markdown
+加载模块	README.md	/^# 加载模块$/;"	c	language:Markdown
+卸载模块	README.md	/^# 卸载模块$/;"	c	language:Markdown
+故障排除	README.md	/^## 故障排除$/;"	s	language:Markdown
+文件结构	README.md	/^## 文件结构$/;"	s	language:Markdown
+显示帮助	README.md	/^# 显示帮助$/;"	c	language:Markdown
+显示编译配置	README.md	/^# 显示编译配置$/;"	c	language:Markdown
+本地环境	README.md	/^### 本地环境$/;"	S	language:Markdown
+本地环境编译	README.md	/^### 本地环境编译$/;"	S	language:Markdown
+查看模块信息	README.md	/^# 查看模块信息$/;"	c	language:Markdown
+清理编译产物	README.md	/^# 清理编译产物$/;"	c	language:Markdown
+环境要求	README.md	/^## 环境要求$/;"	s	language:Markdown
+编译模块	README.md	/^# 编译模块$/;"	c	language:Markdown
+编译环境	README.md	/^## 编译环境$/;"	s	language:Markdown
+编译脚本使用	README.md	/^## 编译脚本使用$/;"	s	language:Markdown
+编译输出	README.md	/^## 编译输出$/;"	s	language:Markdown

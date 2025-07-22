@@ -333,7 +333,7 @@ static ssize_t trace_data_read(struct file *file, char __user *user_buf,
         struct debug_event *event = events[i];
         
         len = snprintf(buf + total_len, PAGE_SIZE - total_len,
-                      "[%llu] %s at 0x%lx pid=%d\n",
+                      "[%lu] %s at 0x%lx pid=%d\n",
                       event->timestamp,
                       event->event_type,
                       event->trigger_addr,

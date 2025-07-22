@@ -249,7 +249,7 @@ static void free_breakpoint(struct breakpoint_info *bp)
  * 
  * Return: 0 if valid, negative error code otherwise
  */
-static int validate_breakpoint_addr(unsigned long addr)
+static int __maybe_unused validate_breakpoint_addr(unsigned long addr)
 {
     /* Basic validation - check if address is in kernel space */
     if (!addr || !virt_addr_valid(addr)) {

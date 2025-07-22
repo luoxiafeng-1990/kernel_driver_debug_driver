@@ -197,8 +197,8 @@ static int extract_register_variable(struct pt_regs *regs, int reg_num,
  * 
  * Return: 0 on success, negative error code on failure
  */
-static int extract_stack_variable(struct pt_regs *regs, int offset, int size,
-                                struct variable_value *var)
+static int __maybe_unused extract_stack_variable(struct pt_regs *regs, int offset, int size,
+                                                struct variable_value *var)
 {
     unsigned long stack_addr;
     
